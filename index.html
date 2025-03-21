@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="./index.css">
+    <script defer src="./scripts/main.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Cineflex </h1>
+        <nav>
+            <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="#films">Films</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="./subscribe.html">Subscribe</a></li>
+            </ul>
+
+            <!-- add searchbox later-->
+        </nav>
+    </header>
+<!--common header-->
+    <main class="homepage">
+        <section id="films">
+            <div class="card">
+                <img src="./images/avengers.jpg" alt="Avengers">
+                <h2>Avengers</h2>
+                <p>Avengers is a 2012 American superhero film based on the Marvel Comics superhero team of the same name.</p>
+                <button onclick="review()">Post Review</button>
+            </div>
+            <div class="card">
+                <img src="./images/interstellar.jpg" alt="Interstellar">
+                <h2>Interstellar</h2>
+                <p>Interstellar is a 2014 epic science fiction film directed by Christopher Nolan.</p>
+                <button onclick="review()">Post Review</button>
+            </div>
+            <div class="card">
+                <img src="./images/joker.jpg" alt="Joker">
+                <h2>Joker</h2>
+                <p>Joker is a 2019 American psychological thriller film directed and produced by Todd Phillips.</p>
+                <button onclick="review()">Post Review</button>
+            </div>
+            <div class="card">
+                <img src="./images/parasite.jpg" alt="Parasite">
+                <h2>Parasite</h2>
+                <p>Parasite is a 2019 South Korean black comedy thriller film directed by Bong Joon-ho.</p>
+                <button onclick="review()">Post Review</button>
+            </div>
+            <div class="card">
+                <img src="./images/tenet.jpg" alt="Tenet">
+                <h2>Tenet</h2>
+                <p>Tenet is a 2020 science fiction action-thriller film written and directed by Christopher Nolan.</p>
+                <button onclick="review()">Post Review</button>
+            </div>
+
+        </section>
+
+        <section id="news">
+
+        </section>
+    </main>
+<!-- part-->
+    <footer id="about">
+        <p>A personal venture by aspiring web developer <br>
+            Aditya Gupta <br>
+            <em>Phone</em> +91-9836557523 <br>
+            <em>E-mail</em> Aditya.pro.gt@gmail.com</p>
+    </footer>
+<!--about part-->
+<script src="/scripts/main.js" defer></script>
+</body>
+</html>
